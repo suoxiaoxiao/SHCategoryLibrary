@@ -58,6 +58,7 @@
 		A8E95EB51F4C271A008F9EC6 /* NSString+LabelWH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LabelWH.m"; sourceTree = "<group>"; };
 		A8E95EB61F4C271A008F9EC6 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		A8E95EB71F4C271A008F9EC6 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		A8E95EBE1F4C308B008F9EC6 /* SHCategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHCategoryHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +110,7 @@
 				A8E95E821F4C2497008F9EC6 /* LaunchScreen.storyboard */,
 				A8E95E851F4C2497008F9EC6 /* Info.plist */,
 				A8E95E741F4C2497008F9EC6 /* Supporting Files */,
+				A8E95EBE1F4C308B008F9EC6 /* SHCategoryHeader.h */,
 			);
 			path = SHCategoryLibrary;
 			sourceTree = "<group>";
