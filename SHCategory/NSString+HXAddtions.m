@@ -24,7 +24,7 @@
 //#define OpenWebpExchange
 
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import "NSString+HXAddtions.h"
 
 @implementation NSString (HXAddtions)
@@ -102,7 +102,7 @@
     CGSize size = CGSizeMake(width, height);
     
     //适配
-    if(IOS7)
+    if([[UIDevice currentDevice].systemVersion floatValue] > 7.0)
     {
         
         CGRect labelRect = [self boundingRectWithSize:size
@@ -132,7 +132,7 @@
         CGSize size = CGSizeMake(width, height);
     
         //适配
-        if(IOS7)
+        if([[UIDevice currentDevice].systemVersion floatValue] > 7.0)
         {
             
             CGRect labelRect = [self boundingRectWithSize:size
@@ -162,7 +162,7 @@
     CGSize size = CGSizeMake(width,2000);
     
     //适配
-    if(IOS7)
+    if([[UIDevice currentDevice].systemVersion floatValue] > 7.0)
     {
         
         CGRect labelRect = [self boundingRectWithSize:size
